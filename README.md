@@ -7,6 +7,6 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[nombre_tecnico](nombre_tecnico/) | 14.0.1.0.0 | descripcion
+[pos_lot_selection](pos_lot_selection/) | 14.0.1.0.0 | Select a serial nomber in POS if available.
 
 [//]: # (end addons)
