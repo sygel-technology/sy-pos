@@ -60,17 +60,16 @@ Credits
 Authors
 ~~~~~~~
 
-* Tecnativa
-* Camptocamp
-* Sygel
-* Odoo Community Association (OCA)
+* Manuel Regidor <manuel.regidor@sygel.es>
 
 
 Contributors
 ~~~~~~~~~~~~
 
-* Manuel Regidor <manuel.regidor@sygel.es>
-
+* Tecnativa
+* Camptocamp
+* Sygel
+* Odoo Community Association (OCA)
 
 Maintainer
 ~~~~~~~~~~
