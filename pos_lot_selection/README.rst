@@ -6,7 +6,7 @@
 Pos Lot Selection
 =================
 
-This module allows to select a serial nomber in POS if available.
+This module allows to select a serial nomber in POS if available. It has been tested in multicompany environment.
 
 
 Installation
