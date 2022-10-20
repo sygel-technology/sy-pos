@@ -65,9 +65,10 @@ odoo.define("pos_lot_selection.LotSelectorPopup", function (require) {
                                 ["product_id", "=", this.props.product.id],
                                 ["name", "=", serialLot],
                                 "|",
-                                ["company_id", "=", this.env.session.company_id],
+                                ["company_id", "=", this.env.pos.company.id],
                                 ["company_id", "=", false],
                             ]],
+                            context: {...this.env.session.user_context},
                         },
                         {shadow: true}
                     );
@@ -129,7 +130,7 @@ odoo.define("pos_lot_selection.LotSelectorPopup", function (require) {
                             ],
                             fields: ["qty_available"],
                         },
-                        context: { lot_id: this.getPayload().newArray[0].text },
+                        context: { lot_id: this.getPayload().newArray[0].text, company_id: this.env.pos.company.id },
                     },
                     // el shadow: true evita que salga un spinner
                     {shadow: true}
