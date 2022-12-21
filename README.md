@@ -7,6 +7,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[nombre_tecnico](nombre_tecnico/) | 15.0.1.0.0 | descripcion
+[pos_refund_order_pricelist](pos_refund_order_pricelist/) | 15.0.1.0.0 | POS Order Preclist in refund orders
+[pos_discount_per_line](pos_discount_per_line/) | 15.0.1.0.0 | Apply general discounton each line
 
 [//]: # (end addons)
