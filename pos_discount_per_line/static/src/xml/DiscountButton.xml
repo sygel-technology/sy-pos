@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+    <t t-name="DiscountPerLineButton" owl="1">
+        <span class="control-button js_discount">
+            <i class="fa fa-tag"></i>
+            <span> </span>
+            <span>Discount Per Line</span>
+        </span>
+    </t>
+</templates>
