@@ -14,9 +14,18 @@ odoo.define('pos_partner_vat_required.ClientDetailsEdit', function(require) {
 
     VatRequiredClientDetailsEdit = ClientDetailsEdit => class extends ClientDetailsEdit {
         saveChanges() {
-            if (!this.changes.vat){
+            let processedChanges = {};
+            for (let [key, value] of Object.entries(this.changes)) {
+                if (this.intFields.includes(key)) {
+                    processedChanges[key] = parseInt(value) || false;
+                } else {
+                    processedChanges[key] = value;
+                }
+            }
+            if ((!this.props.partner.vat && !processedChanges.vat) ||
+                processedChanges.vat === '' ){
                 return this.showPopup('ErrorPopup', {
-                  title: _t('VAT Is Required'),
+                  title: _t('A Customer VAT Is Required'),
                 });
             }
             super.saveChanges();
