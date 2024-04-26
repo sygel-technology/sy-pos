@@ -4,8 +4,8 @@
 from odoo import fields, models
 
 
-class ResUsers(models.Model):
-    _inherit = 'hr.employee'
+class HrEmployeeBase(models.AbstractModel):
+    _inherit = 'hr.employee.base'
 
     pos_receipt_name = fields.Char(
         string="POS Receipt Name",
