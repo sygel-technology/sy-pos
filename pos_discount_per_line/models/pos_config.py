@@ -5,14 +5,14 @@ from odoo import fields, models
 
 
 class PosConfig(models.Model):
-    _inherit = 'pos.config'
+    _inherit = "pos.config"
 
     discount_per_line = fields.Selection(
         selection=[
             ("replace", "Replace"),
             ("sum", "Sum"),
         ],
-        string='Discount Per Line',
+        string="Discount Per Line",
         required=True,
-        default="sum"
+        default="sum",
     )
