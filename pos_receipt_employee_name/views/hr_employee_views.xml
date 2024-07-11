@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- Copyright 2024 Manuel Regidor <manuel.regidor@sygel.es>
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
     <record id="pos_employee_receipt_name_view_employee_form" model="ir.ui.view">
         <field name="name">pos.employee.receipt.name.view.employee.form</field>
         <field name="model">hr.employee</field>
-        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="inherit_id" ref="hr.view_employee_form" />
         <field name="arch" type="xml">
             <field name="coach_id" position="after">
-                <field name="pos_receipt_name"/>
+                <field name="pos_receipt_name" />
             </field>
         </field>
     </record>
