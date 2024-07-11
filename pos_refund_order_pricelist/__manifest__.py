@@ -6,7 +6,7 @@
     "summary": "POS Order Preclist in refund ordersß",
     "version": "15.0.1.0.0",
     "category": "Point of Sale",
-    "website": "https://www.sygel.es",
+    "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "application": False,
@@ -14,9 +14,9 @@
     "depends": [
         "point_of_sale",
     ],
-    'assets': {
-        'point_of_sale.assets': [
-            'pos_refund_order_pricelist/static/src/js/TicketScreen.js',
+    "assets": {
+        "point_of_sale.assets": [
+            "pos_refund_order_pricelist/static/src/js/TicketScreen.js",
         ],
     },
 }

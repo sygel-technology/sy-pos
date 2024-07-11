@@ -5,14 +5,14 @@
     "name": "POS Receipt Employee Name",
     "summary": "Select employee name to be shown in POS receipts",
     "category": "POS",
-    "website": "https://www.sygel.es",
+    "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",
     "license": "AGPL-3",
     "version": "15.0.1.0.0",
     "depends": [
         "pos_hr",
     ],
-    'data': [
+    "data": [
         "views/hr_employee_views.xml",
     ],
     "assets": {
