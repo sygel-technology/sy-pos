@@ -6,15 +6,15 @@
     "summary": "Closing session notes from POS to backend.",
     "version": "15.0.1.0.0",
     "category": "POS",
-    "website": "https://www.sygel.es",
+    "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
     "depends": [
-        'point_of_sale',
+        "point_of_sale",
     ],
-    'data': [
+    "data": [
         "views/pos_session_view.xml",
     ],
 }
