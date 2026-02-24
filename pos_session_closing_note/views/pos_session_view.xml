@@ -8,10 +8,7 @@
         <field name="inherit_id" ref="point_of_sale.view_pos_session_form" />
         <field name="arch" type="xml">
             <field name="stop_at" position="after">
-                <field
-                    name="closing_notes"
-                    attrs="{'invisible' : [('state', '!=', 'closed')]}"
-                />
+                <field name="closing_notes" invisible="state != 'closed'" />
             </field>
         </field>
     </record>
