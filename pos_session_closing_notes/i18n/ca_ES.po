@@ -1,0 +1,38 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_session_closing_notes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-24 16:03+0000\n"
+"PO-Revision-Date: 2023-01-24 17:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ca\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: pos_session_closing_notes
+#: model:ir.model.fields,field_description:pos_session_closing_notes.field_pos_session__closing_notes
+msgid "Closing Notes"
+msgstr "Notes de tancament"
+
+#. module: pos_session_closing_notes
+#: model:ir.model,name:pos_session_closing_notes.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sessió del Punt de Venda"
+
+#. module: pos_session_closing_notes
+#: code:addons/pos_session_closing_notes/models/pos_session.py:0
+#, python-format
+msgid ""
+"{} difference: {}{}{}\n"
+"{}"
+msgstr ""
+"{} diferència: {}{}{}\n"
+"{}"
