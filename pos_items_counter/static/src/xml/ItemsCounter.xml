@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--
     Copyright 2023 Manuel Regidor <manuel.regidor@sygel.es>
     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
@@ -10,9 +10,10 @@
                 #Items
             </div>
             <div>
-                <span class='value'><t t-esc='get_items_count()' /></span>
+                <span class='value'>
+                    <t t-esc='get_items_count()' />
+                </span>
             </div>
         </div>
     </t>
  </templates>
- 

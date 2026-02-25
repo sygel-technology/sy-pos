@@ -5,8 +5,11 @@
 -->
 <templates xml:space="preserve">
     <t t-inherit="point_of_sale.OrderSummary" t-inherit-mode="extension" owl="1">
-        <xpath expr="//div[hasclass('summary')]//div[hasclass('line')]/div[1]" position="after">
-            <ItemsCounter/>
+        <xpath
+            expr="//div[hasclass('summary')]//div[hasclass('line')]/div[1]"
+            position="after"
+        >
+            <ItemsCounter />
         </xpath>
     </t>
 </templates>
