@@ -16,3 +16,8 @@ class UomUom(models.Model):
             if units_uom_id and sel.id == units_uom_id.id:
                 is_units = True
             sel.is_units = is_units
+
+    def _load_pos_data_fields(self, config_id):
+        res = super()._load_pos_data_fields(config_id)
+        res.append("is_units")
+        return res

@@ -2,9 +2,9 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "POS Number Items",
+    "name": "POS Item Counter",
     "summary": "Show number of items in POS.",
-    "version": "15.0.1.0.0",
+    "version": "18.0.1.0.0",
     "category": "Custom",
     "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",
@@ -15,12 +15,9 @@
         "point_of_sale",
     ],
     "assets": {
-        "point_of_sale.assets": [
-            "pos_items_counter/static/src/js/ItemsCounter.js",
-        ],
-        "web.assets_qweb": [
-            "pos_items_counter/static/src/xml/ItemsCounter.xml",
-            "pos_items_counter/static/src/xml/OrderSummary.xml",
-        ],
+        "point_of_sale._assets_pos": [
+            "pos_item_counter/static/src/js/ItemCounter.esm.js",
+            "pos_item_counter/static/src/xml/ItemCounter.xml",
+        ]
     },
 }
