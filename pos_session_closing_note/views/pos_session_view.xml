@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="pos_session_closing_notes_view_pos_session_form" model="ir.ui.view">
+        <field name="name">pos.session.closing.notes.view.pos.session.form</field>
+        <field name="model">pos.session</field>
+        <field name="inherit_id" ref="point_of_sale.view_pos_session_form" />
+        <field name="arch" type="xml">
+            <field name="stop_at" position="after">
+                <field name="closing_notes" invisible="state != 'closed'" />
+            </field>
+        </field>
+    </record>
+</odoo>
