@@ -15,7 +15,7 @@
                         >Discount per Line Default Method</span>
                         <div class="text-muted">
                             'Replace' will replace the current discount applied on every line.<br
-                            />
+                        />
                             'Sum' will sum the selected discount to the current discounton each line.
                         </div>
                         <div class="content-group mt16">
