@@ -10,6 +10,7 @@ class HrEmployeeBase(models.AbstractModel):
     pos_receipt_name = fields.Char(
         string="POS Receipt Name",
         help=(
-            "Employee's name that is shown in POS receipts when this employee is active."
+            "Employee's name that is shown in POS receipts "
+            " when this employee is active."
         ),
     )

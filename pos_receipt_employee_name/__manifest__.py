@@ -8,7 +8,7 @@
     "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",
     "license": "AGPL-3",
-    "version": "15.0.1.0.0",
+    "version": "18.0.1.0.0",
     "depends": [
         "pos_hr",
     ],
@@ -16,8 +16,8 @@
         "views/hr_employee_views.xml",
     ],
     "assets": {
-        "point_of_sale.assets": [
-            "pos_receipt_employee_name/static/src/js/models.js",
+        "point_of_sale._assets_pos": [
+            "pos_receipt_employee_name/static/src/js/models.esm.js",
         ],
     },
 }

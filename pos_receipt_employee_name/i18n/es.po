@@ -35,4 +35,4 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_receipt_employee_name.field_hr_employee_base__pos_receipt_name
 #: model:ir.model.fields,field_description:pos_receipt_employee_name.field_hr_employee_public__pos_receipt_name
 msgid "POS Receipt Name"
-msgstr "Nombre en tique del POS"
+msgstr "Nombre en tiquet del POS"
