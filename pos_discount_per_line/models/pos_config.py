@@ -12,7 +12,6 @@ class PosConfig(models.Model):
             ("replace", "Replace"),
             ("sum", "Sum"),
         ],
-        string="Discount Per Line",
         required=True,
         default="sum",
     )

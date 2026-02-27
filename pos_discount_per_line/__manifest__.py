@@ -3,24 +3,24 @@
 
 {
     "name": "POS Discount Per Line",
-    "summary": "Apply general discounton each line",
-    "version": "15.0.1.0.0",
+    "summary": "Apply general discount on each line",
+    "version": "18.0.1.0.0",
     "category": "Point of Sale",
     "website": "https://github.com/sygel-technology/sy-pos",
-    "author": "Sygel, Odoo Community Association (OCA)",
+    "author": "Sygel",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
     "depends": [
-        "point_of_sale",
+        "pos_discount",
     ],
     "data": ["views/pos_config_view.xml"],
     "assets": {
-        "web.assets_qweb": [
-            "pos_discount_per_line/static/src/xml/**/*",
-        ],
-        "point_of_sale.assets": [
-            "pos_discount_per_line/static/src/js/**/*",
+        "point_of_sale._assets_pos": [
+            "pos_discount_per_line/static/src/control_buttons/control_buttons.xml",
+            "pos_discount_per_line/static/src/control_buttons/control_buttons.esm.js",
+            "pos_discount_per_line/static/src/number_popup/number_popup.xml",
+            "pos_discount_per_line/static/src/number_popup/number_popup.esm.js",
         ],
     },
 }

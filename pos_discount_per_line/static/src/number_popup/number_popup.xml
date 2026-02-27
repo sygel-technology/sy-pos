@@ -2,28 +2,30 @@
 <!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <templates id="template" xml:space="preserve">
-    <t t-inherit="point_of_sale.NumberPopup" t-inherit-mode="extension" owl="1">
-        <xpath expr="//header" position="attributes">
-            <attribute name="style">margin-bottom: 3px !important;</attribute>
-        </xpath>
-        <xpath expr="//header" position="inside">
+    <t
+        t-name="pos_discount_per_line.NumberPopupDPL"
+        t-inherit="point_of_sale.NumberPopup"
+        t-inherit-mode="primary"
+        owl="1"
+    >
+        <xpath expr="//div[@t-if='props.subtitle']" position="after">
             <div>
                 <select
-                    t-if="props.discountPerLine"
                     name="disc_policy"
                     id="disc_policy"
+                    class="form-select form-select-sm fw-bolder mb-2 text-center"
                 >
                     <option
                         value="replace"
                         t-att-selected="props.discountPerLineMethod == 'replace'"
                     >
-                        <t>Replace</t>
+                        <span>Replace</span>
                     </option>
                     <option
                         value="sum"
                         t-att-selected="props.discountPerLineMethod == 'sum'"
                     >
-                        <t>Sum</t>
+                        <span>Sum</span>
                     </option>
                 </select>
             </div>
