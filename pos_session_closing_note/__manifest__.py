@@ -4,7 +4,7 @@
 {
     "name": "POS Session Closing Notes",
     "summary": "Closing session notes from POS to backend.",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "category": "POS",
     "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",

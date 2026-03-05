@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[pos_session_closing_note](pos_session_closing_note/) | 18.0.1.0.0 |  | Closing session notes from POS to backend.
+[pos_session_closing_note](pos_session_closing_note/) | 18.0.1.0.1 |  | Closing session notes from POS to backend.
 
 [//]: # (end addons)
 
