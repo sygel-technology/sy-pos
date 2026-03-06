@@ -1,0 +1,37 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_items_counter
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-26 15:32+0000\n"
+"PO-Revision-Date: 2026-02-26 15:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_items_counter
+#. odoo-javascript
+#: code:addons/pos_items_counter/static/src/xml/ItemsCounter.xml:0
+msgid "#Items"
+msgstr "#Quantitat"
+
+#. module: pos_items_counter
+#: model:ir.model.fields,field_description:pos_items_counter.field_uom_uom__is_units
+msgid "Is Units"
+msgstr "És unitats"
+
+#. module: pos_items_counter
+#: model:ir.model,name:pos_items_counter.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "Línies de tiquet de punt de venda"
+
+#. module: pos_items_counter
+#: model:ir.model,name:pos_items_counter.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Unitat de mesura del producte"

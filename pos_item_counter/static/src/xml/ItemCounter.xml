@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Copyright 2023 Manuel Regidor <manuel.regidor@sygel.es>
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+-->
+<templates id="template" xml:space="preserve">
+    <t t-name="ItemCounter">
+        <div class="line d-flex justify-content-between" style="margin-top: 16px;">
+            <span>#Items</span>
+            <span class='value'>
+                <t t-esc='get_item_count()' />
+            </span>
+        </div>
+    </t>
+
+    <t t-inherit="point_of_sale.OrderWidget" t-inherit-mode="extension">
+        <xpath expr="//div[@t-if='taxTotals']" position="inside">
+            <ItemCounter />
+        </xpath>
+    </t>
+ </templates>
