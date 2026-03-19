@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[pos_discount_per_line](pos_discount_per_line/) | 18.0.1.0.0 |  | Apply general discount on each line
 [pos_item_counter](pos_item_counter/) | 18.0.1.0.0 |  | Show number of items in POS.
 [pos_session_closing_note](pos_session_closing_note/) | 18.0.1.0.1 |  | Closing session notes from POS to backend.
 
