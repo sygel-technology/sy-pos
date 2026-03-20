@@ -1,0 +1,1 @@
+- If you do not activate the "Log in with Employees" option, this module is unable to read the employee from the POS and it does not work.
