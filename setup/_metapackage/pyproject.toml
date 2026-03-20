@@ -1,9 +1,10 @@
 [project]
 name = "odoo-addons-sygel-technology-sy-pos"
-version = "18.0.20260319.0"
+version = "18.0.20260320.0"
 dependencies = [
     "odoo-addon-pos_discount_per_line==18.0.*",
     "odoo-addon-pos_item_counter==18.0.*",
+    "odoo-addon-pos_receipt_employee_name==18.0.*",
     "odoo-addon-pos_session_closing_note==18.0.*",
 ]
 classifiers=[
