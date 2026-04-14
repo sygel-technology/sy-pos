@@ -1,0 +1,1 @@
+-   Unit tests or tours to test the JS code should be added in the next module versions
