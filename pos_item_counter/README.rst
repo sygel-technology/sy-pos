@@ -45,6 +45,12 @@ Service items are not counted.
 
 Products that are not measured by units count as only one product.
 
+Known issues / Roadmap
+======================
+
+-  Unit tests or tours to test the JS code should be added in the next
+   module versions
+
 Bug Tracker
 ===========
 
