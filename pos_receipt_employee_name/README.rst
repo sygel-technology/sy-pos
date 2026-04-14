@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 =========================
 POS Receipt Employee Name
 =========================
@@ -17,7 +13,7 @@ POS Receipt Employee Name
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-sygel--technology%2Fsy--pos-lightgray.png?logo=github
@@ -58,8 +54,11 @@ To use this module, you need to:
 Known issues / Roadmap
 ======================
 
-- If you do not activate the "Log in with Employees" option, this module
-  is unable to read the employee from the POS and it does not work.
+-  If you do not activate the "Log in with Employees" option, this
+   module is unable to read the employee from the POS and it does not
+   work.
+-  Unit tests or tours to test the JS code should be added in the next
+   module versions
 
 Bug Tracker
 ===========
@@ -82,12 +81,12 @@ Authors
 Contributors
 ------------
 
-- `Sygel <https://www.sygel.es>`__:
+-  `Sygel <https://www.sygel.es>`__:
 
-  - Manuel Regidor
-  - Alberto Martínez
-  - Valentin Vinagre
-  - Harald Panten
+   -  Manuel Regidor
+   -  Alberto Martínez
+   -  Valentin Vinagre
+   -  Harald Panten
 
 Maintainers
 -----------
