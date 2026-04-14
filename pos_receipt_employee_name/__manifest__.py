@@ -8,7 +8,7 @@
     "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",
     "license": "AGPL-3",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "depends": [
         "pos_hr",
     ],

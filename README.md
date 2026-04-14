@@ -23,7 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [pos_discount_per_line](pos_discount_per_line/) | 18.0.1.0.1 |  | Apply general discount on each line
 [pos_item_counter](pos_item_counter/) | 18.0.1.0.1 |  | Show number of items in POS.
-[pos_receipt_employee_name](pos_receipt_employee_name/) | 18.0.1.0.0 |  | Select employee name to be shown in POS receipts
+[pos_receipt_employee_name](pos_receipt_employee_name/) | 18.0.1.0.1 |  | Select employee name to be shown in POS receipts
 [pos_session_closing_note](pos_session_closing_note/) | 18.0.1.0.1 |  | Closing session notes from POS to backend.
 
 [//]: # (end addons)
