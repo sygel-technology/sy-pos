@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [pos_item_counter](pos_item_counter/) | 18.0.1.0.1 |  | Show number of items in POS.
 [pos_receipt_employee_name](pos_receipt_employee_name/) | 18.0.1.0.1 |  | Select employee name to be shown in POS receipts
 [pos_session_closing_note](pos_session_closing_note/) | 18.0.1.0.1 |  | Closing session notes from POS to backend.
+[sy_pos_order_vat_search](sy_pos_order_vat_search/) | 18.0.1.0.0 |  | Adds VAT search to POS orders
 
 [//]: # (end addons)
 
