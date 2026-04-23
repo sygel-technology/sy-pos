@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.Orderline" t-inherit-mode="extension" owl="1">
+        <xpath
+            expr="//li[@t-if=&quot;line.price !== 0 and line.discount and line.discount !== '0' and !props.basic_receipt&quot;]"
+            position="attributes"
+        >
+            <attribute name="t-if">False</attribute>
+        </xpath>
+        <xpath expr="//li[hasclass('price-per-unit')]" position="after">
+            <li
+                t-if="!props.basic_receipt and (line.pricelistDiscountPercent or line.manualDiscountPercent)"
+            >
+                <t t-if="line.pricelistDiscountPercent">
+                    <t t-esc="line.pricelistDiscountPercent" />% discount
+                </t>
+                <t t-if="line.pricelistDiscountPercent and line.manualDiscountPercent">
+                    +
+                </t>
+                <t t-if="line.manualDiscountPercent">
+                    <t t-esc="line.manualDiscountPercent" />% discount
+                </t>
+            </li>
+        </xpath>
+    </t>
+</templates>
