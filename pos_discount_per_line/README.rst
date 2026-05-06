@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 =====================
 POS Discount Per Line
 =====================
@@ -17,7 +13,7 @@ POS Discount Per Line
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-sygel--technology%2Fsy--pos-lightgray.png?logo=github
@@ -34,10 +30,10 @@ order, this discount is applied individually to each line item.
 This module also offers the option to set two types of discount
 operations:
 
-- Sum: The global discount percentage will be added to the discount
-  percentage of each line item.
-- Replace: The discount percentage of each line item will be the global
-  discount percentage applied.
+-  Sum: The global discount percentage will be added to the discount
+   percentage of each line item.
+-  Replace: The discount percentage of each line item will be the global
+   discount percentage applied.
 
 **Table of contents**
 
@@ -69,8 +65,17 @@ To use this module, you need to:
 Known issues / Roadmap
 ======================
 
-- Unit tests or tours to test the JS code should be added in the next
-  module versions
+-  Unit tests or tours to test the JS code should be added in the next
+   module versions
+-  In the NumberPopup xml asset, the t-att-selected attribute, that was
+   used in v15 to determine the default option, has been removed in v18
+   because it was giving problems. The problem consisted that, when
+   clicking on a number button of the NumberPopup, the discount option
+   was resetting to the default, ignoring the user changes. To solve
+   this, the select options have been duplicated with a different order
+   and a conditional, Odoo takes the first option as the default one.
+   This would be nice to be solved in future versions, although it is
+   not essential.
 
 Bug Tracker
 ===========
@@ -93,12 +98,12 @@ Authors
 Contributors
 ------------
 
-- `Sygel <https://www.sygel.es>`__:
+-  `Sygel <https://www.sygel.es>`__:
 
-  - Manuel Regidor
-  - Alberto Martínez
-  - Valentin Vinagre
-  - Harald Panten
+   -  Manuel Regidor
+   -  Alberto Martínez
+   -  Valentin Vinagre
+   -  Harald Panten
 
 Maintainers
 -----------
