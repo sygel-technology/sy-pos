@@ -15,18 +15,22 @@
                     id="disc_policy"
                     class="form-select form-select-sm fw-bolder mb-2 text-center"
                 >
-                    <option
-                        value="replace"
-                        t-att-selected="props.discountPerLineMethod == 'replace'"
-                    >
-                        <span>Replace</span>
-                    </option>
-                    <option
-                        value="sum"
-                        t-att-selected="props.discountPerLineMethod == 'sum'"
-                    >
-                        <span>Sum</span>
-                    </option>
+                    <t t-if="props.discountPerLineMethod == 'replace'">
+                        <option value="replace">
+                            <span>Replace</span>
+                        </option>
+                        <option value="sum">
+                            <span>Sum</span>
+                        </option>
+                    </t>
+                    <t t-else="">
+                        <option value="sum">
+                            <span>Sum</span>
+                        </option>
+                        <option value="replace">
+                            <span>Replace</span>
+                        </option>
+                    </t>
                 </select>
             </div>
         </xpath>
