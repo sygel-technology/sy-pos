@@ -4,7 +4,7 @@
 {
     "name": "POS Discount Per Line",
     "summary": "Apply general discount on each line",
-    "version": "18.0.1.0.1",
+    "version": "18.0.1.1.0",
     "category": "Point of Sale",
     "website": "https://github.com/sygel-technology/sy-pos",
     "author": "Sygel",
